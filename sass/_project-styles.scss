@@ -1,0 +1,190 @@
+		body, html{width:100%;height:100%;}
+		.balloonContent
+		{
+			font-family: helvetica,arial,sans-serif;
+			line-height: 130%;
+			font-size: 1em;
+			color:#333132;
+		}
+		
+		
+		.airportName
+		{
+			float: left;
+			font-size: 1.25em;
+			width: 360px;
+		}
+		.icaoID
+		{
+			float: right;
+			font-size: 1em;
+			line-height: 1.25em;
+			color:#aaaaaa;
+			
+		}
+		.place
+		{
+			float: left;
+			font-size: .9em;
+			width: 250px;
+		}
+		.date
+		{
+			float: right;
+			font-size: .9em;
+			color:#aaaaaa;
+			
+		}
+
+		.placeTime{margin-bottom:12px;padding-bottom:12px;border-bottom:dotted 1px #ccc;}
+		.visitDescription{font-size:.85em;line-height:130%;margin-bottom:12px;}
+		.header{padding-right:18px;}
+		.contentBody{max-width:444px;max-height:278px;overflow:auto;padding-right:18px;}
+		#cm_mapSidebar a{display:block;padding:12px;border:dotted #fff;border-width:0 0 1px 0;font-family: 'Handlee', cursive;text-decoration:none;}
+		#cm_mapSidebar a:hover{background:#b7c5b4;border-color:#909d8c;border:solid #909d8c 1px;border-width:1px 0 1px 0;margin-top:-1px;color:#fff !important;}
+		#cm_mapSidebar a:active{background:#909d8c;border:solid #909d8c 1px;color:#fff !important;border-width:1px 0 1px 0 !important;margin-top:-1px;}
+		body
+{
+	margin: 0;
+	padding: 2%;
+	width: 100%;
+	height: 100%;
+}
+
+.logbook
+{
+	width: 100%;
+	height: 100%;
+	background: #909d8c;
+}
+
+.logbook-page
+{
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+}
+
+#cm_map
+{
+	width: 75%;
+	height: 100%;
+	float: left;
+	background: #909d8c !important;
+}
+
+#cm_map img { max-width: none !important; }
+
+.sidebar{width: 25%;
+	float: right;
+	position: relative;
+	padding: 0 0 0 0;
+	background: #e4eee2;
+	margin: 0;
+	height: 100%;}
+	
+#cm_mapSidebar
+{
+	width:100%;
+	height:88%;
+	overflow:scroll;
+}
+
+#cm_mapSidebar a
+{
+	display: block;
+	padding: 12px;
+	border: dotted #fff;
+	border-width: 0 0 1px 0;
+	font-family: 'Handlee', cursive;
+	text-decoration: none;
+}
+
+#cm_mapSidebar a:hover
+{
+	background: #b7c5b4;
+	border-color: #909d8c;
+	border: solid #909d8c 1px;
+	border-width: 1px 0 1px 0;
+	margin-top: -1px;
+	color: #fff !important;
+}
+
+#cm_mapSidebar a:active
+{
+	background: #909d8c;
+	border: solid #909d8c 1px;
+	color: #fff !important;
+	border-width: 1px 0 1px 0 !important;
+	margin-top: -1px;
+}
+
+.shadow-rule{position:absolute;left:-3px;top:0;z-index:10000;width:4px;height:100%;z-index:100;}
+
+.balloonContent
+{
+	font-family: helvetica,arial,sans-serif;
+	line-height: 130%;
+	font-size: 1em;
+	color: #333132;
+}
+
+.airportName
+{
+	float: left;
+	font-size: 1.25em;
+	width: 360px;
+}
+
+.icaoID
+{
+	float: right;
+	font-size: 1em;
+	line-height: 1.25em;
+	color: #aaaaaa;
+}
+
+.place
+{
+	float: left;
+	font-size: .9em;
+	width: 250px;
+}
+
+.date
+{
+	float: right;
+	font-size: .9em;
+	color: #aaaaaa;
+}
+
+.placeTime
+{
+	margin-bottom: 12px;
+	padding-bottom: 12px;
+	border-bottom: dotted 1px #ccc;
+}
+
+.visitDescription 
+{
+	font-size: .85em;
+	line-height: 130%;
+	margin-bottom: 12px;
+}
+
+.header { padding-right: 18px; }
+
+.contentBody
+{
+	max-width: 444px;
+	max-height: 278px;
+	overflow: auto;
+	padding-right: 18px;
+}
+.control-bar{overflow:hidden;display:inline;position:absolute;width:100%;height:12%;bottom:1px;left:0;z-index:99;}
+.controlModule{width:33.3%;height:100%;float:left;position:relative;}
+.controlModule a{position:absolute; top:50%; height:40px; margin-top:-20px;left:50%;margin-left:-20px;line-height:100%;font-size:40px;color:#2d372a}
+.controlModule a:hover{color:#4f5c4b}
+.controlModule a:active{color:#909d8c}
+@import 'fonts';
+
